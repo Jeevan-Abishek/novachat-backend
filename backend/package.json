@@ -1,0 +1,42 @@
+{
+  "name": "novachat-backend",
+  "version": "1.0.0",
+  "description": "NovaChat - Enterprise realtime chat backend (Node.js + Socket.IO + Redis + MongoDB)",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "lint": "eslint src --ext .js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "@socket.io/redis-adapter": "^8.3.0",
+    "redis": "^4.6.15",
+    "mongoose": "^8.5.1",
+    "nodemailer": "^6.9.14",
+    "jsonwebtoken": "^9.0.2",
+    "bcrypt": "^5.1.1",
+    "helmet": "^7.1.0",
+    "cors": "^2.8.5",
+    "express-rate-limit": "^7.3.1",
+    "express-validator": "^7.1.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "cloudinary": "^2.3.0",
+    "multer": "^1.4.5-lts.1",
+    "winston": "^3.13.1",
+    "compression": "^1.7.4",
+    "xss-clean": "^0.1.4",
+    "hpp": "^0.2.3",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "eslint": "^9.7.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
